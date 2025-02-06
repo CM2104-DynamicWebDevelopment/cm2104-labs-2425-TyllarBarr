@@ -65,6 +65,7 @@ async function getTracks(searchterm, res) {
 
     );
 
+}
 
 
 
@@ -77,4 +78,3 @@ app.get('/searchLove', function (req, res) {
 
 
 app.listen(8080);
-}
