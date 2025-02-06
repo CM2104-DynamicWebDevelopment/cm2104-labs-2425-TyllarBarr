@@ -5,7 +5,7 @@ var app = express();
 , function(req, res){
  res.send("Hello world! by express");
 });
-app.listen(8080);
+
 
 var express = require('express');
 var app = express();
@@ -46,4 +46,4 @@ spotifyApi.clientCredentialsGrant().then(
 app.get('/searchLove', function (req, res) {
     getTracks('love', res);
    });
-   
+   app.listen(8080);
