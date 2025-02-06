@@ -64,7 +64,7 @@ app.get('/searchLove', function (req, res) {
  "<h4>"+track.artists[0].name+"</h4>"+
  "<img src='"+track.album.images[0].url +"'>"+
  "<a href='"+track.external_urls.spotify+"'> Track Details </a>"+
- “</div>";
+ "</div>";
  console.log(HTMLResponse);
  }
  res.send(HTMLResponse)
